@@ -41,3 +41,4 @@ curl --header "Content-Type: application/json" \
 - Documentation and docstrings explaining parameters and return and its types + use key parameters to improve readability when needed. I just wrote some basic docstrings to explain the sense of each method.
 - Create a better-organized class structures to split responsibilities. For example divide the payload processer and the algorithm into 2 different classes. This way, we could have an algorithm family and strategy pattern could be implemented.
 - Better input data validation + when the input data is wrong, return a message specifying which of the data is wrong.
+- Logs.

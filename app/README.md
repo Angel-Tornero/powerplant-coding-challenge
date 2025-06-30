@@ -2,9 +2,10 @@
 
 ## FastAPI command
 
-To run the API locally, you can run the following command from repository root:
+To run the API locally, you can run the following commands from repository root:
 
 ```
+pip install -r requirements.txt
 fastapi run app/main.py --port 8888
 ```
 
